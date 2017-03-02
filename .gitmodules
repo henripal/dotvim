@@ -40,3 +40,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git@github.com:tpope/vim-surround.git
+[submodule "bundle/vitality.vim"]
+	path = bundle/vitality.vim
+	url = git@github.com:sjl/vitality.vim.git
