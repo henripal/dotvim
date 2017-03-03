@@ -43,3 +43,12 @@
 [submodule "bundle/vitality.vim"]
 	path = bundle/vitality.vim
 	url = git@github.com:sjl/vitality.vim.git
+[submodule "bundle/vim-colorschemes"]
+	path = bundle/vim-colorschemes
+	url = git@github.com:flazz/vim-colorschemes.git
+[submodule "bundle/bundle/dracula-theme"]
+	path = bundle/bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
+[submodule "bundle/dracula-theme"]
+	path = bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
