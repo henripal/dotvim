@@ -1,4 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/'
-let g:netrw_dirhist_2='/Users/henripal'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/henripal/.julia/v0.5'
+let g:netrw_dirhist_2='/Users/henripal/.julia/v0.5/ProbabilisticGraphicalModels/src'
+let g:netrw_dirhist_3='/Users/henripal/.julia/v0.5/ProbabilisticGraphicalModels'
+let g:netrw_dirhist_4='/Users/henripal/.julia/v0.5'
+let g:netrw_dirhist_5='/Users/henripal/.julia/v0.5/BayesNets'
+let g:netrw_dirhist_6='/Users/henripal/.julia/v0.5/BayesNets/test'
+let g:netrw_dirhist_7='/Users/henripal/.julia/v0.5/BayesNets/src'
