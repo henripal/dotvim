@@ -46,9 +46,6 @@ autocmd filetype netrw noremap <buffer> <TAB> /
 let g:netrw_liststyle=3
 
 " change cursor shape in different mode
-let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
-let &t_SR = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=2\x7\<Esc>\\"
-let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
 
 " folding: autofold, but open everything on
 " Buffer open
@@ -59,9 +56,11 @@ au BufRead * normal zR
 " VISUAL STUFF
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:airline_powerline_fonts = 1
+set laststatus=2
+let g:airline_theme='solarized'
 
 set background=dark
-colorscheme base16-railscasts
+colorscheme industry 
 
 highlight clear SignColumn
 highlight VertSplit    ctermbg=236
