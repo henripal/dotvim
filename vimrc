@@ -32,6 +32,9 @@ noremap tp "+p
 noremap tY "+Y 
 noremap tP "+P 
 
+set clipboard=unnamedplus
+
+
 " better search and case behavior
 set wildmenu
 set wildmode:longest:full,full
