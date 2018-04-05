@@ -14,6 +14,9 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
+let python_highlight_all=1
+syntax on
+
 " wrapping behavior
 set wrap
 set textwidth=79
@@ -53,6 +56,7 @@ let g:netrw_liststyle=3
 " folding: autofold, but open everything on
 " Buffer open
 set foldmethod=indent
+set foldlevel=99
 au BufRead * normal zR
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
