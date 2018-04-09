@@ -21,13 +21,14 @@ syntax on
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=85
+" set colorcolumn=85
 
 " some remappings: change lines regardless of wrapping
 " change ; to ;
 " change pasting behavior to paste between tmux panes
 nnoremap j gj
 nnoremap k gk
+inoremap jk <Esc>
 
 nnoremap ; :
 noremap ty "+y 
@@ -51,7 +52,6 @@ set incsearch
 autocmd filetype netrw noremap <buffer> <TAB> /
 let g:netrw_liststyle=3
 
-" change cursor shape in different mode
 
 " folding: autofold, but open everything on
 " Buffer open
@@ -70,8 +70,8 @@ set background=dark
 colorscheme industry 
 
 highlight clear SignColumn
-highlight VertSplit    ctermbg=236
-highlight ColorColumn  ctermbg=237
+" highlight VertSplit    ctermbg=236
+" highlight ColorColumn  ctermbg=237
 highlight LineNr       ctermbg=236 ctermfg=240
 highlight CursorLineNr ctermbg=236 ctermfg=240
 highlight CursorLine   ctermbg=236
